@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
 
-// DB local (tempo de execução)
+// DB local (tempo de execução) -- Criando um array, para guardar os registros enviado via POST
 const data = [];
 
 // criando rota que será acessada utilizando o método HTTP GET/
